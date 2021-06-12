@@ -1,0 +1,43 @@
+#data-card1{
+  border: 5px solid black;
+  border-radius: 15px;
+  background-color: blue;
+  font-size: 24px;
+  color: white;
+  width: auto;
+  margin: 0 auto 0 auto;
+  justify-content: center;
+}
+#data-card2{
+  border: 5px solid black;
+  border-radius: 15px;
+  background-color: blue;
+  font-size: 24px;
+  color: white;
+  width: auto;
+  margin: 0 auto 0 auto;
+  justify-content: center;
+}
+#switch-data{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  display: flex;
+  font-size: 20px;
+}
+#buy-title{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
+
+.buy-view{
+  border: 5px solid black;
+  background-color: chocolate;
+  border-radius: 15px;
+  justify-content: center;
+  width: 30%;
+  height: 30%;
+}

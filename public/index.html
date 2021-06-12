@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  </head>
+  <body>
+    <div class="buy-view">
+      <h2 id="buy-title">Buy</h2>
+      <div class="card1">
+          <div id="data-card1">
+            <p>
+            Near the ancient Indian kingdom of Mahishmati, an injured woman is seen exiting a cave down by a mountain waterfall carrying an infant.
+            She kills two soldiers pursuing and attempts to cross a raging river, but slips and is washed away in the current.
+            </p>
+          </div>
+      </div><br/>
+      <button id="switch-data" onClick= "switchmydata('data-card1','data-card2')">Switch here</button><br/>
+      <div class="card2">
+          <div id="data-card2">
+            <p>
+            Transformers is a series of American science fiction action films based on the Transformers franchise which began in the 1980s.[note 1] 
+            Michael Bay has directed the first five films: Transformers (2007), Revenge of the Fallen (2009), Dark of the Moon (2011), Age of Extinction (2014), and The Last Knight (2017).[1][2][3] 
+            </p>
+          </div>
+      </div>
+      </div>
+      <script>
+      function switchmydata(card1,card2){
+  var a = document.getElementById(card1).innerHTML;
+  var b = document.getElementById(card2).innerHTML;
+  document.getElementById(card2).innerHTML = a;
+  document.getElementById(card1).innerHTML = b;
+}
+      </script>
+  </body>
+</html>
